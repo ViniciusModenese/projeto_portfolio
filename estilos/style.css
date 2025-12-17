@@ -230,6 +230,11 @@ div.video-container iframe {
   transition: border-color 0.5s, border-width 0.5s;
 }
 
+#projeto-container .projeto a{
+  text-decoration: none;
+  color: var(--texto);
+}
+
 #projeto-container .projeto:hover {
   border-color: var(--destaque);
   border-left-width: 15px;
